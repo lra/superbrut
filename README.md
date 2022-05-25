@@ -94,17 +94,19 @@ Notre proposition se décline en trois points :
 Par exemple, pour un salaire brut de 2 300 euros, la cotisation au titre de la vieillesse (non plafonnée) est calculée comme suit :
 
 ```
-Assiette    Part employeur      Part salarié
-(salaire brut)  Taux    Montant Taux    Montant
-2 300,00 €  1,90 %  43,70 € 0,40 %  9,20 €
+| Assiette       | Part employeur   | Part salarié     |
+| -------------- | ---------------- | ---------------- |
+| (salaire brut) | Taux   | Montant | Taux   | Montant |
+|     2 300,00 € | 1,90 % | 43,70 € | 0,40 % |  9,20 € |
 ```
 
 Nous proposons de la recalculer à partir du **superbrut** (i.e. le coût total employeur) actuel (3 052,70 euros) comme suit :
 
 ```
-Assiette    Cotisations sociales
-(superbrut) Taux    Montant
-3 052,70 €  1,7329 %    52,90 €
+| Assiette    | Cotisations sociales |
+| ----------- | --------- | -------- |
+| (superbrut) |  Taux     |  Montant |
+|  3 052,70 € |  1,7329 % |  52,90 € |
 ```
 
 C’est-à-dire que rien ne change à l’exception de l’assiette (le superbrut en lieu et place du ~salaire brut~) et du taux (1.7329% au lieu de 1.90%+0.40%) : la somme perçue par la sécurité sociale reste **exactement** la même (43,70 € + 9,20 € = 52,90 €).
